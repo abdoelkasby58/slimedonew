@@ -95,8 +95,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
-router.beforeEach((to, form, next) => {
-  document.title = to.meta.title
-  next();
+router.afterEach((to) => {
+  document.title = to.meta.title || "Default App Title";
 });
 export default router;
