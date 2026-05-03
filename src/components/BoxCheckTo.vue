@@ -57,8 +57,8 @@
   </section>
 </template>
 <script setup>
-import ImgGradient from "@/assets/bg-gradient.Webp";
-import Logo from "@/assets/slimedo_logo.Webp";
+import ImgGradient from "@/assets/bg-gradient.webp";
+import Logo from "@/assets/slimedo_logo.webp";
 
 </script>
 <style scoped></style>
