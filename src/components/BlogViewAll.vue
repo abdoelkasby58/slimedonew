@@ -43,8 +43,8 @@
 
 <script setup>
 import SlimedoLogo from "@/assets/slimedo_logo.png";
-import NavBar from "./NavBar.vue";
-import Footer from "./Footer.vue";
+import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 const posts = [
   {
     id: 1,

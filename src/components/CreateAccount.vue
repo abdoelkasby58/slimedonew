@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from "vue";
 import Slimedo from "@/assets/slimedo_logo.png";
-import NavBar from "./NavBar.vue";
-import Footer from "./Footer.vue";
+import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 import { Icon } from "@iconify/vue";
 import router from "@/router";
 const name = ref("");
