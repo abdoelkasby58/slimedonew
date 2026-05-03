@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#0a1a16] text-gray-400 py-6 px-6 md:px-16 lg:px-16">
     <div class="max-w-7xl mx-auto">
-      <!-- الجزء العلوي: اللوجو والقوائم -->
+    
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 border-b border-gray-800 pb-12"
       >
@@ -51,7 +51,7 @@
         </div>
 
         <!-- القوائم الروابط -->
-        <di v v-for="(group, index) in footerLinks" :key="index">
+        <div v-for="(group, index) in footerLinks" :key="index">
           <h3 class="text-white font-semibold mb-4">{{ group.title }}</h3>
           <ul class="space-y-2">
             <li v-for="link in group.links" :key="link">
@@ -62,7 +62,7 @@
               >
             </li>
           </ul>
-        </di>
+        </div>
       </div>
 
       <!-- الجزء السفلي: الدفع وحقوق الملكية -->

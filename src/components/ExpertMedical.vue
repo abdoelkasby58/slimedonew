@@ -18,7 +18,7 @@
     <div class="flex flex-row flex-wrap justify-center gap-6">
       <!-- BOX -->
       <div
-        v-for="(nurse, index) in nurses"
+        v-for="(nurse, index) in nursesData"
         :key="index"
         class="relative bg-[#B8C6C3] hover:rotate-x-20 hover:rotate-y-10 transition duration-400 rounded-2xl overflow-hidden group"
       >
@@ -48,13 +48,30 @@
   </div>
 </template>
 <script setup>
-
-const props = defineProps({
-  nurses: {
-    type: Array,
-    required: true,
+import img1 from "@/assets/pexels-oys-photography-838143052-19438561-removebg-preview.png";
+import img2 from "@/assets/pexels-tima-miroshnichenko-5407249-removebg-preview.png";
+import img3 from "@/assets/pexels-konrads-photo-32254655-removebg-preview.png";
+import img4 from "@/assets/pexels-konrads-photo-32160037-removebg-preview.png";
+const nursesData = [
+  {
+    name: "Dr. John Williams",
+    specialty: "Cardiology Specialist",
+    img: img1,
   },
-});
-
-
+  {
+    name: "Dr. Sarah Johnson",
+    specialty: "Pediatric Care",
+    img: img2,
+  },
+  {
+    name: "Dr. Michael Chen",
+    specialty: "General Health",
+    img: img3,
+  },
+  {
+    name: "Dr. James Anderson",
+    specialty: "Emergency Care",
+    img: img4,
+  },
+];
 </script>
