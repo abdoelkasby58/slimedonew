@@ -127,7 +127,7 @@
   </footer>
 </template>
 <script setup>
-import SlimedoLogo from "@/assets/slimedo_logo.webp";
+import SlimedoLogo from "@/assets/slimedo_logo.png";
 import { ref } from "vue";
 
 const footerLinks = ref([

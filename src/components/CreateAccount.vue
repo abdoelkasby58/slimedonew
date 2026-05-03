@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import Slimedo from "@/assets/slimedo_logo.webp";
+import Slimedo from "@/assets/slimedo_logo.png";
 import NavBar from "./NavBar.vue";
 import Footer from "./Footer.vue";
 import { Icon } from "@iconify/vue";
