@@ -96,7 +96,7 @@ const router = createRouter({
   routes,
 });
 router.beforeEach((to, form, next) => {
-  document.title = to.meta.title;
+  document.title = to.meta.title
   next();
 });
 export default router;

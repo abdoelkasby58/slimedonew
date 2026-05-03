@@ -1,10 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { RouterLink, useRouter } from "vue-router";
-
-defineProps({
-  logo: String,
-});
+import Logo from "@/assets/slimedo_logo.png"
 const router = useRouter();
 const refrech = () => {
   router.push("/");
@@ -19,7 +16,7 @@ const isOpen = ref(false);
     >
       <!-- Logo -->
       <div class="img-logo w-[140px]" @click="refrech">
-        <img :src="logo" loading="lazy" class="w-18" alt="logo" />
+        <img :src="Logo" loading="lazy" class="w-18" alt="logo" />
       </div>
 
       <!-- Hamburger (Mobile) -->
