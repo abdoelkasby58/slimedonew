@@ -63,8 +63,8 @@ const isOpen = ref(false);
           </li>
 
           <li>
-            <RouterLink class="hover:text-black transition" to="/fac">
-              FAC
+            <RouterLink class="hover:text-black transition" to="/faq">
+              FAQ
             </RouterLink>
           </li>
 

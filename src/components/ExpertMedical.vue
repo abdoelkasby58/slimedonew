@@ -48,37 +48,13 @@
   </div>
 </template>
 <script setup>
-import img1 from '@/assets/pexels-oys-photography-838143052-19438561-removebg-preview.png'
-import img2 from '@/assets/pexels-tima-miroshnichenko-5407249-removebg-preview.png'
-import img3 from '@/assets/pexels-konrads-photo-32254655-removebg-preview.png'
-import img4 from '@/assets/pexels-konrads-photo-32160037-removebg-preview.png'
+
 const props = defineProps({
   nurses: {
     type: Array,
     required: true,
   },
 });
-const nurses = [
-  {
-    name: "Dr. John Williams",
-    specialty: "Cardiology Specialist",
-    img: img1,
-  },
-  {
-    name: "Dr. Sarah Johnson",
-    specialty: "Pediatric Care",
-    img:img2,
-  },
-  {
-    name: "Dr. Michael Chen",
-    specialty: "General Health",
-    img: img3,
-  },
-  {
-    name: "Dr. James Anderson",
-    specialty: "Emergency Care",
-    img: img4,
-  },
-];
+
 
 </script>

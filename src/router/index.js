@@ -36,7 +36,7 @@ const routes = [
   {
     name: "confirm",
     path: "/confirmpassword",
-    component: () => import("@/components/ConfirPassword.vue"),
+    component: () => import("@/components/ConfirmPassword.vue"),
     meta: {
       title: "Confirm Password",
     },
@@ -66,11 +66,11 @@ const routes = [
     },
   },
   {
-    name: "fac",
-    path: "/fac",
-    component: () => import("@/pages/FacPage.vue"),
+    name: "faq",
+    path: "/faq",
+    component: () => import("@/pages/FaqPage.vue"),
     meta: {
-      title: "FAC",
+      title: "FAQ",
     },
   },
   {
