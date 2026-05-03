@@ -1,18 +1,15 @@
 <template>
   <NavBar />
- <HomeWork/>
- <ExpertMedical />
- <Footer></Footer>
+  <HomeWork />
+  <ExpertMedical />
+  <Footer></Footer>
 </template>
 <script setup>
-import ExpertMedical from '@/components/ExpertMedical.vue';
-import HomeWork from '@/components/HomeWork.vue';
+import ExpertMedical from "@/components/ExpertMedical.vue";
+import Footer from "@/components/Footer.vue";
+import HomeWork from "@/components/HomeWork.vue";
 
-import NavBar from '@/components/NavBar.vue';
-
-import Footer from '@/components/Footer.vue';
-
-
+import NavBar from "@/components/NavBar.vue";
 </script>
 <style scoped>
 .animationtransform {
